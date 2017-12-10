@@ -10,5 +10,27 @@
     background: lightblue;
     margin-left: 25%;
     margin-top: 6%;
+    border: groove #cccccc;
+    text-align: center;
+
 
 }
+
+.game-start-class {
+    background: lightpink;
+    border: solid 1px #000eff;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-left: 40%;
+
+    text-align: center;
+}
+
+#start-game {
+    padding-bottom: 10%;
+}
+
+#countdownId {
+    border: solid 1px #000eff;
+}
+
