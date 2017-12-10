@@ -21,7 +21,7 @@ $('#game-start').click(function () {
 
 function countdown() {
 
-    if (timeStart == 25) {
+    if (timeStart == 0) {
         timerElem.innerHTML = 'Times up!';
         clearTimeout(timerId);
         finGame.innerHTML = '<h3>Correct</h3> ' + correct + '<br>' + '<h3>Incorrect</h3> ' + incorrect;
